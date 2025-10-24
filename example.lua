@@ -1,4 +1,4 @@
-local Library=loadstring(game:HttpGet("https://raw.githubusercontent.com/IITheNcrnoX/arcane-ui-library/refs/heads/main/library.ui"),true)();
+local Library=loadstring(game:HttpGet("https://raw.githubusercontent.com/IITheNcrnoX/arcane-ui-library/refs/heads/main/libraryui.lua"))();
 
 local Window = Library:Window({Name = "Balright"})
 
