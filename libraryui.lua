@@ -515,7 +515,7 @@ local Library do
             }
 
             writefile(`{Library.Folders.Fonts}/{Name}.font`, HttpService:JSONEncode(Data))
-            return Font.new(getcustomasset(`{Library.Folders.Fonts}/{Name}.font`), Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+            return Font.new(getcustomasset({Library.Folders.Fonts}/{Name}.font`), Enum.FontWeight.Regular, Enum.FontStyle.Normal)
         end
 
         Library.Font = CustomFont:New("InterSemiBold", "Regular", "Normal", {
